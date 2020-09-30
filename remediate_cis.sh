@@ -2,7 +2,7 @@
 
 #remediate CIS
 
-cd /home/localadmin/Hardening/remediate
+cd /etc/Hardening/remediate
 
 bash ./remediate_1.1.1.1.sh
 bash ./remediate_1.1.1.2.sh
