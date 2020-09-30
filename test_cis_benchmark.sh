@@ -208,10 +208,10 @@ test_wrapper 3.4.1 "Ensure TCP Wrappers is installed (Scored)" Yes Server1 Works
 #test_wrapper 3.5.3 "Ensure RDS is disabled (Not Scored)" No Server1 Workstation1
 #test_wrapper 3.5.4 "Ensure TIPC is disabled (Not Scored)" No Server1 Workstation1
 test_wrapper 3.6.1 "Ensure iptables is installed (Scored)" Yes Server1 Workstation1
-test_wrapper 3.6.2 "Ensure default deny firewall policy (Scored)" Yes Server1 Workstation1
+#test_wrapper 3.6.2 "Ensure default deny firewall policy (Scored)" Yes Server1 Workstation1
 test_wrapper 3.6.3 "Ensure loopback traffic is configured (Scored)" Yes Server1 Workstation1
-#test_wrapper 3.6.4 "Ensure outbound and established connections are configured (Not Scored)" No Server1 Workstation1
-test_wrapper 3.6.5 "Ensure firewall rules exist for all open ports (Scored)" Yes Server1 Workstation1
+test_wrapper 3.6.4 "Ensure outbound and established connections are configured (Not Scored)" No Server1 Workstation1
+#test_wrapper 3.6.5 "Ensure firewall rules exist for all open ports (Scored)" Yes Server1 Workstation1
 #test_wrapper 3.7 "Ensure wireless interfaces are disabled (Not Scored)" No Server1 Workstation2
 #test_wrapper 4.1.1.1 "Ensure audit log storage size is configured (Not Scored)" No Server2 Workstation2
 test_wrapper 4.1.1.2 "Ensure system is disabled when audit logs are full (Scored)" Yes Server2 Workstation2
