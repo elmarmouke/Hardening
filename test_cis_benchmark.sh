@@ -199,10 +199,10 @@ test_wrapper 3.2.8 "Ensure TCP SYN Cookies is enabled (Scored)" Yes Server1 Work
 #test_wrapper 3.3.2 "Ensure IPv6 redirects are not accepted (Not Scored)" No Server1 Workstation1
 #test_wrapper 3.3.3 "Ensure IPv6 is disabled (Not Scored)" No Server1 Workstation1
 test_wrapper 3.4.1 "Ensure TCP Wrappers is installed (Scored)" Yes Server1 Workstation1
-test_wrapper 3.4.2 "Ensure /etc/hosts.allow is configured (Scored)" Yes Server1 Workstation1
-test_wrapper 3.4.3 "Ensure /etc/hosts.deny is configured (Scored)" Yes Server1 Workstation1
-test_wrapper 3.4.4 "Ensure permissions on /etc/hosts.allow are configured (Scored)" Yes Server1 Workstation1
-test_wrapper 3.4.5 "Ensure permissions on /etc/hosts.deny are configured (Scored)" Yes Server1 Workstation1
+#test_wrapper 3.4.2 "Ensure /etc/hosts.allow is configured (Scored)" Yes Server1 Workstation1 #obsolete
+#test_wrapper 3.4.3 "Ensure /etc/hosts.deny is configured (Scored)" Yes Server1 Workstation1
+#test_wrapper 3.4.4 "Ensure permissions on /etc/hosts.allow are configured (Scored)" Yes Server1 Workstation1
+#test_wrapper 3.4.5 "Ensure permissions on /etc/hosts.deny are configured (Scored)" Yes Server1 Workstation1
 #test_wrapper 3.5.1 "Ensure DCCP is disabled (Not Scored)" No Server1 Workstation1
 #test_wrapper 3.5.2 "Ensure SCTP is disabled (Not Scored)" No Server1 Workstation1
 #test_wrapper 3.5.3 "Ensure RDS is disabled (Not Scored)" No Server1 Workstation1
