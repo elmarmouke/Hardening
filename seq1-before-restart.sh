@@ -21,7 +21,7 @@ mkfs.ext4 /dev/vg1/lv-shm
 lvcreate --size 4G --name lv-media vg1
 mkfs.ext4 /dev/vg1/lv-media
 
-mkdir /mnt/newvar /mnt/newhome
+mkdir /mnt/newvar
 mount /dev/vg1/lv-var /mnt/newvar
 cp -apx /var/* /mnt/newvar
 
