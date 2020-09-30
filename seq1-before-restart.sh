@@ -1,9 +1,5 @@
 #!/bin/sh
 
-sudo yum install git 
-git clone https://github.com/elmarmouke/Hardening.git
-
-
 echo -e "o\nn\np\n1\n\n\nt\n8e\nw" | fdisk /dev/sdc
 partprobe /dev/sdc
 pvcreate /dev/sdc1
