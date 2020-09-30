@@ -4,16 +4,16 @@
 
 cd /home/localadmin/centos-cis-benchmark/remediate
 
-#bash ./remediate_1.1.1.1.sh
-#bash ./remediate_1.1.1.2.sh
-#bash ./remediate_1.1.1.3.sh
-#bash ./remediate_1.1.1.4.sh
-#bash ./remediate_1.1.1.5.sh
-#bash ./remediate_1.1.1.6.sh
-#bash ./remediate_1.1.1.7.sh
-#bash ./remediate_1.1.1.8.sh
-#bash ./remediate_1.1.22.sh
-#bash ./remediate_1.2.3.sh
+bash ./remediate_1.1.1.1.sh
+bash ./remediate_1.1.1.2.sh
+bash ./remediate_1.1.1.3.sh
+bash ./remediate_1.1.1.4.sh
+bash ./remediate_1.1.1.5.sh
+bash ./remediate_1.1.1.6.sh
+bash ./remediate_1.1.1.7.sh
+bash ./remediate_1.1.1.8.sh
+bash ./remediate_1.1.22.sh
+bash ./remediate_1.2.3.sh
 bash ./remediate_1.3.1.sh
 bash ./remediate_1.4.1.sh
 bash ./remediate_1.5.1.sh
