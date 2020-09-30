@@ -9,4 +9,5 @@ if [[ $? -ne 0 ]]; then
 else
   sed '\|GRUB_CMDLINE_LINUX|d' -i /boot/grub2/grub.cfg
   echo "GRUB_CMDLINE_LINUX="audit=1" >> /boot/grub2/grub.cfg
+  grub2-mkconfig -o /boot/grub2/grub.cfg
 fi
