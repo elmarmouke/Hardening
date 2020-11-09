@@ -103,14 +103,14 @@ test_wrapper 1.1.1.4 "Ensure mounting of hfs filesystems is disabled (Scored)" Y
 test_wrapper 1.1.1.5 "Ensure mounting of hfsplus filesystems is disabled (Scored)" Yes Server1 Workstation1
 test_wrapper 1.1.1.6 "Ensure mounting of squashfs filesystems is disabled (Scored)" Yes Server1 Workstation1
 test_wrapper 1.1.1.7 "Ensure mounting of udf filesystems is disabled (Scored)" Yes Server1 Workstation1
-test_wrapper 1.1.1.8 "Ensure mounting of FAT filesystems is disabled (Scored)" Yes Server2 Workstation2
+#test_wrapper 1.1.1.8 "Ensure mounting of FAT filesystems is disabled (Scored)" Yes Server2 Workstation2
 test_wrapper 1.1.2 "Ensure separate partition exists for /tmp (Scored)" Yes Server2 Workstation2
 test_wrapper 1.1.3 "Ensure nodev option set on /tmp partition (Scored)" Yes Server1 Workstation1
 test_wrapper 1.1.4 "Ensure nosuid option set on /tmp partition (Scored)" Yes Server1 Workstation1
 test_wrapper 1.1.5 "Ensure noexec option set on /tmp partition (Scored)" Yes Server1 Workstation1
 test_wrapper 1.1.6 "Ensure separate partition exists for /var (Scored)" Yes Server2 Workstation2
 test_wrapper 1.1.7 "Ensure separate partition exists for /var/tmp (Scored)" Yes Server2 Workstation2
-#test_wrapper 1.1.8 "Ensure nodev option set on /var/tmp partition (Scored)" Yes Server1 Workstation1
+test_wrapper 1.1.8 "Ensure nodev option set on /var/tmp partition (Scored)" Yes Server1 Workstation1
 test_wrapper 1.1.9 "Ensure nosuid option set on /var/tmp partition (Scored)" Yes Server1 Workstation1
 test_wrapper 1.1.10 "Ensure noexec option set on /var/tmp partition (Scored)" Yes Server1 Workstation1
 test_wrapper 1.1.13 "Ensure separate partition exists for /home (Scored)" Yes Server2 Workstation2
