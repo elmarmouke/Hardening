@@ -17,8 +17,11 @@ bash ./remediate_3.1.2.sh
 bash ./remediate_3.2.2.sh
 bash ./remediate_3.2.3.sh
 bash ./remediate_3.2.4.sh
+bash ./remediate_3.6.3.sh
+bash ./remediate_3.6.4.sh
 bash ./remediate_4.1.1.2.sh
 bash ./remediate_4.1.1.3.sh
+bash ./remediate_4.1.3.sh
 bash ./remediate_4.1.4.sh
 bash ./remediate_4.1.5.sh
 bash ./remediate_4.1.6.sh
@@ -34,6 +37,7 @@ bash ./remediate_4.1.15.sh
 bash ./remediate_4.1.16.sh
 bash ./remediate_4.1.17.sh
 bash ./remediate_4.1.18.sh
+bash ./remediate_4.2.1.4.sh
 bash ./remediate_4.2.2.3.sh
 bash ./remediate_5.1.2.sh
 bash ./remediate_5.1.3.sh
@@ -56,6 +60,14 @@ bash ./remediate_5.2.13.sh
 bash ./remediate_5.2.14.sh
 bash ./remediate_5.2.15.sh
 bash ./remediate_5.3.1.sh
+bash ./remediate_5.3.2.sh
+bash ./remediate_5.3.3.sh
+bash ./remediate_5.4.1.1.sh
+bash ./remediate_5.4.1.2.sh
+bash ./remediate_5.4.4.sh
+bash ./remediate_5.4.5.sh
+bash ./remediate_5.6.sh
+
 bash ./remediate_5.3.3.sh
 bash ./remediate_5.4.1.1.sh
 bash ./remediate_5.4.1.2.sh
