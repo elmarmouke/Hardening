@@ -5,7 +5,6 @@
 cd /etc/Hardening/remediate
 
 bash ./remediate_1.1.1.1.sh
-bash ./remediate_1.1.1.1.sh
 bash ./remediate_1.1.1.3.sh
 bash ./remediate_1.1.1.6.sh
 bash ./remediate_1.1.1.7.sh
@@ -14,6 +13,10 @@ bash ./remediate_1.3.2.sh
 bash ./remediate_1.4.1.sh
 bash ./remediate_1.8.sh
 bash ./remediate_2.2.7.sh
+bash ./remediate_3.1.2.sh
+bash ./remediate_3.2.2.sh
+bash ./remediate_3.2.3.sh
+bash ./remediate_3.2.4.sh
 bash ./remediate_4.1.1.2.sh
 bash ./remediate_4.1.1.3.sh
 bash ./remediate_4.1.4.sh
@@ -27,6 +30,10 @@ bash ./remediate_4.1.11.sh
 bash ./remediate_4.1.12.sh
 bash ./remediate_4.1.13.sh
 bash ./remediate_4.1.14.sh
+bash ./remediate_4.1.15.sh
+bash ./remediate_4.1.16.sh
+bash ./remediate_4.1.17.sh
+bash ./remediate_4.1.18.sh
 bash ./remediate_4.2.2.3.sh
 bash ./remediate_5.1.2.sh
 bash ./remediate_5.1.3.sh
