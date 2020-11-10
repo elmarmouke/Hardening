@@ -28,6 +28,7 @@ rm -rf lost+found
 cp -rp /home/* /mnt/
 mv /home /home.old
 mkdir /home
+cd /
 umount /dev/mapper/vg1-lv--home
 mount /dev/mapper/vg1-lv--home /home
 echo "/dev/vg1/lv-home /home ext4 rw,nodev,relatime 0 0" >> /etc/fstab
