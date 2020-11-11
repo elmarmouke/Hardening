@@ -36,4 +36,4 @@ mkfs.ext4 /dev/vg1/lv-media
 #Prepare to move var directory
 
 
-init 1
+#init 1
