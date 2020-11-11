@@ -71,4 +71,4 @@ bash ./remediate_5.3.3.sh
 bash ./remediate_5.4.1.1.sh
 bash ./remediate_5.4.1.2.sh
 bash ./remediate_5.6.sh
-reboot
+#reboot
