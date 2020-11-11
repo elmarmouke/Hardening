@@ -15,4 +15,4 @@ echo "/dev/vg1/lv-var /var ext4 rw,relatime 0 0" >> /etc/fstab
 #echo "/dev/vg1/lv-tmp /tmp ext4 rw,nodev,nosuid,noexec 0 0" >> /etc/fstab
 #echo "/dev/vg1/lv-shm /dev/shm ext4 rw,nosuid,nodev,noexec,relatime 0 0" >> /etc/fstab
 
-init 6
+#init 6
