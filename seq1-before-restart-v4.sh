@@ -6,7 +6,7 @@ pvcreate /dev/sdb1
 vgcreate vg1 /dev/sdb1
 lvcreate --size 4G --name lv-home vg1
 mkfs.ext4 /dev/vg1/lv-home
-lvcreate --size 4G --name lv-var vg1
+lvcreate --size 16G --name lv-var vg1
 mkfs.ext4 /dev/vg1/lv-var
 lvcreate --size 4G --name lv-var-tmp vg1
 mkfs.ext4 /dev/vg1/lv-var-tmp
