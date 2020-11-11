@@ -24,8 +24,8 @@ mkfs.ext4 /dev/vg1/lv-media
 #Move home directory
 mount /dev/mapper/vg1-lv--home /mnt
 cd /mnt/
-rm -rf lost+found
-cp -rp /home/* /mnt/
+#rm -rf lost+found
+cp -arp /home/* /mnt/
 mv /home /home.old
 mkdir /home
 cd /
