@@ -11,6 +11,7 @@ bash ./remediate_1.1.1.7.sh
 bash ./remediate_1.3.1.sh
 bash ./remediate_1.3.2.sh
 bash ./remediate_1.4.1.sh
+bash ./remediate_1.4.2.sh
 bash ./remediate_1.8.sh
 bash ./remediate_2.2.7.sh
 bash ./remediate_3.1.2.sh
