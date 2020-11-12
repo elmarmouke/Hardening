@@ -47,6 +47,7 @@ bash ./remediate_5.1.5.sh
 bash ./remediate_5.1.6.sh
 bash ./remediate_5.1.7.sh
 bash ./remediate_5.1.8.sh
+bash ./remediate_5.2.1.sh
 bash ./remediate_5.2.2.sh
 bash ./remediate_5.2.3.sh
 bash ./remediate_5.2.4.sh
