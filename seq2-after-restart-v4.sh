@@ -18,5 +18,6 @@ echo "/dev/vg1/lv-var-tmp /var/tmp ext4 rw,nosuid,nodev,noexec,relatime 0 0" >> 
 echo "/dev/vg1/lv-var-log /var/log ext4 defaults 0 0" >> /etc/fstab
 echo "/dev/vg1/lv-var-log-audit /var/log/audit ext4 defaults 0 0" >> /etc/fstab
 echo "/dev/vg1/lv-tmp /tmp ext4 rw,nodev,nosuid,noexec 0 0" >> /etc/fstab
+echo "/dev/vg1/lv-shm /dev/shm ext4 rw,nosuid,nodev,noexec,relatime 0 0" >> /etc/fstab
 
 #init 6
