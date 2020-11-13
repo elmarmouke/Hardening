@@ -36,4 +36,4 @@ echo "/dev/vg1/lv-home /home ext4 rw,nodev,relatime 0 0" >> /etc/fstab
 #Prepare to move var directory
 
 
-#init 1
+init 1
