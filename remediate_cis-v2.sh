@@ -8,6 +8,7 @@ bash ./remediate_1.1.1.1.sh
 bash ./remediate_1.1.1.3.sh
 bash ./remediate_1.1.1.6.sh
 bash ./remediate_1.1.1.7.sh
+bash ./remediate_1.1.21.sh
 bash ./remediate_1.3.1.sh
 bash ./remediate_1.3.2.sh
 bash ./remediate_1.4.1.sh
