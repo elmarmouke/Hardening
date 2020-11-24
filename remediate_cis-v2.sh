@@ -4,6 +4,11 @@
 
 cd /etc/Hardening/remediate
 
+#Ajout de Rabih************
+restorecon -vr /var/log/audit
+service auditd restart
+#**************************
+
 bash ./remediate_1.1.1.1.sh
 bash ./remediate_1.1.1.3.sh
 bash ./remediate_1.1.1.6.sh
