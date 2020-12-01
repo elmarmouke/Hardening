@@ -81,4 +81,12 @@ bash ./remediate_5.3.3.sh
 bash ./remediate_5.4.1.1.sh
 bash ./remediate_5.4.1.2.sh
 bash ./remediate_5.6.sh
+
+
+rsync -av /mnt/newvar/ /var
+mkdir /var/log/named
+chown named:named /var/log/named
+cp -apx /var.old/log/named/* /var/log/named/
+systemctl enable named.service
+systemctl start named.service
 #reboot
