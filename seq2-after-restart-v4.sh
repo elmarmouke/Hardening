@@ -8,6 +8,11 @@ mkdir /var
 #cp -apx /mnt/newvar/* /var
 #rsync -aqxP /mnt/newvar/* /var
 rsync -av /mnt/newvar/ /var
+mkdir /var/log/named
+chown named:named /var/log/named
+cp -apx /var.old/log/named/* /var/log/named/
+#systemctl restart named.service
+#systemctl status named.service
  
 umount /dev/vg1/lv-var
 mount /dev/vg1/lv-var /var
