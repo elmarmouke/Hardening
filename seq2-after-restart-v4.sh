@@ -5,8 +5,9 @@ mount /dev/vg1/lv-var /mnt/newvar
 cp -apx /var/* /mnt/newvar
 mv /var /var.old
 mkdir /var
-cp -apx /mnt/newvar/* /var
+#cp -apx /mnt/newvar/* /var
 #rsync -aqxP /mnt/newvar/* /var
+rsync -av /mnt/newvar/ /var
  
 umount /dev/vg1/lv-var
 mount /dev/vg1/lv-var /var
