@@ -3,6 +3,6 @@
 
 # 5.4.5 - Ensure default user shell timeout is 900 seconds or less (Scored)
 
-echo "readonly TMOUT=900 ; export TMOUT" >> /etc/bashrc
-echo "readonly TMOUT=900 ; export TMOUT" >> /etc/profile
-export TMOUT=900
+echo "readonly TMOUT=600 ; export TMOUT" >> /etc/bashrc
+echo "readonly TMOUT=600 ; export TMOUT" >> /etc/profile
+export TMOUT=600
