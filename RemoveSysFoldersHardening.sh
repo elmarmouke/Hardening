@@ -14,3 +14,11 @@ lvremove /dev/vg1/lv-var-log
 lvremove /dev/vg1/lv-var-log-audit
 lvremove /dev/vg1/lv-var-log-tmp
 lvremove /dev/vg1/lv-var-tmp
+
+
+#Manuellement
+#fdisk /dev/sda
+#delete partition 4
+#sudo partprobe
+
+
